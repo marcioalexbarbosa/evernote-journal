@@ -13,7 +13,7 @@ Eu criei um script em node.js para pegar uma nota aleatória deste meu diário e
 
 ## Instruções de uso
 
-Pré-requisitos: 
+### Pré-requisitos: 
 
 * Um caderno no evernote com uma nota para cada dia, como um diário.
 * Um [developer token](https://dev.evernote.com/get-token/) para usar a API do Evernote.
@@ -21,3 +21,9 @@ Pré-requisitos:
 * substituir no notebook guid o [guid](https://discussion.evernote.com/topic/37081-archived-how-to-find-notebook_guid/) do seu próprio notebook onde você mantém o seu diário
 * npm install
 * npm start
+
+### example output
+
+```
+Hoje, sábado, 31 de outubro de 2015, foi um dia bom.17:03h E eu aproveitei o sábado para descansar, esta semana foi muito corrida e eu passei mal na segunda-feira. E amanhã tem que ir para Cerquilho.
+```
