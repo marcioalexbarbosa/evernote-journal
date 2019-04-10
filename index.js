@@ -1,6 +1,6 @@
 const Evernote = require('evernote');
 
-var authToken = 'replace with your auth token';
+var authToken = 'REPLACE WITH YOUR OWN TOKEN';
 
 if (authToken == "your developer token") {
   console.log("Please fill in your developer token");
@@ -10,10 +10,9 @@ if (authToken == "your developer token") {
 
 var client = new Evernote.Client({ token: authToken, sandbox: false });
 
-var userStore = client.getUserStore();
 var noteStore = client.getNoteStore();
 
-var notebookGuid = 'replace with your notebook guid';
+var notebookGuid = 'REPLACE WITH YOUR NOTEBOOK GUID';
 
 var filter = {};
 filter.notebookGuid = notebookGuid;
