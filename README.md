@@ -17,3 +17,7 @@ Pré-requisitos:
 
 * Um caderno no evernote com uma nota para cada dia, como um diário.
 * Um [developer token](https://dev.evernote.com/get-token/) para usar a API do Evernote.
+* substituir no index.js o auth token pelo seu próprio token
+* substituir no notebook guid o [guid](https://discussion.evernote.com/topic/37081-archived-how-to-find-notebook_guid/) do seu próprio notebook onde você mantém o seu diário
+* npm install
+* npm start
