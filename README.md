@@ -25,5 +25,7 @@ Eu criei um script em node.js para pegar uma nota aleatória deste meu diário e
 ### example output
 
 ```
-Hoje, sábado, 31 de outubro de 2015, foi um dia bom.17:03h E eu aproveitei o sábado para descansar, esta semana foi muito corrida e eu passei mal na segunda-feira. E amanhã tem que ir para Cerquilho.
+Hoje, sábado, 31 de outubro de 2015, foi um dia bom.17:03h
+E eu aproveitei o sábado para descansar, esta semana foi muito corrida e eu passei mal na segunda-feira. 
+E amanhã tem que ir para Cerquilho.
 ```
