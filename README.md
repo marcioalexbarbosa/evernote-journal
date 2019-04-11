@@ -19,6 +19,7 @@ Eu criei um script em node.js para pegar uma nota aleatória deste meu diário e
 * Um [developer token](https://dev.evernote.com/get-token/) para usar a API do Evernote.
 * substituir no index.js o auth token pelo seu próprio token
 * substituir no notebook guid o [guid](https://discussion.evernote.com/topic/37081-archived-how-to-find-notebook_guid/) do seu próprio notebook onde você mantém o seu diário
+Nota: você pode obter o guid do notebook resolvendo a Promise [listNotebooks](http://dev.evernote.com/doc/reference/NoteStore.html#Fn_NoteStore_listNotebooks)
 * npm install
 * npm start
 
