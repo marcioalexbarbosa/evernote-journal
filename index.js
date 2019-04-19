@@ -27,8 +27,9 @@ noteStore.findNotesMetadata(filter, 0, 10000, resultSpec).then(data => {
   return guids;
 }).then((guids) => {
   var rand = guids[Math.floor(Math.random() * guids.length)];
-  noteStore.getNoteContent(rand).then(note => {
-    var text = note.replace(/(<([^>]+)>)/g, "");
+  noteStore.getNoteWithResultSpec(rand, {includeContent: true}).then(note => {
+    console.log(note.title);
+    var text = note.content.replace(/(<([^>]+)>)/g, "").trim();
     console.log(text);
   }).catch(error => {
     console.log(error);
